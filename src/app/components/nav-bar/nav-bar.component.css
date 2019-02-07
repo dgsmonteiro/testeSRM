@@ -1,0 +1,38 @@
+
+ul {
+  padding: inherit;
+  margin: 0px;
+}
+
+/* div input */
+  .search {
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    display: flax;
+    color: #5d5d5d;
+  }
+  input[type="text"] {
+    width: 145px;
+    height: 29px;
+    border: none;
+    outline: none;
+    margin: 13px 0 7px 15px;
+    font-size: 15px;
+    color: #5d5d5d;
+    text-align: right;
+    padding-right: 3px;
+  }
+  i.material-icons {
+    position: absolute;
+    top: 19px;
+  }
+/* fim do div input */
+
+
+aside {
+  background-color: #00233d;
+  width: 200px;
+  height: -webkit-fill-available;
+  display: grid;
+  float: left;
+}

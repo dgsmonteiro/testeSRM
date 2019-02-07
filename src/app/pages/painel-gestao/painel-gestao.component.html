@@ -1,0 +1,77 @@
+<div class="bodyComponents">
+  <!-- nav -->
+    <p>Pagina inicial > Painél de Gestão</p>
+
+  <!-- header -->
+    <div class="headerPainelGestao" >
+      <!-- Titulo -->
+      <div class="headerTitulo">
+        <img src="../../assets/image/pg2.png" alt="">
+        <p>Painel Produto</p>
+      </div>
+      <!-- selectStyle -->
+      <div class="headerContent">
+        <p>
+          produto:
+        </p>
+        <div class="seletcStyle">
+          <p>Todos</p>
+          <img src="../../assets/image/setButton3.png" alt="">
+        </div>
+      </div>
+    </div>
+  <!-- fim header -->
+
+  <!-- grid-A -->
+  <div class="grid-A">
+    <div class="grid-A-col-1 box">
+      <!-- grid-B  -->
+        <div class="grid-B">
+          <div class="grid-B-col-1">Atalhos</div>
+          <div class="grid-B-col-2">
+            <p> Operacional</p>
+            <button class="button-w-1" >Envio</button>
+            <button class="button-w-1">Assinatura</button>
+            <button class="button-w-1">Envio de Duplicatas</button>
+            <button class="button-w-1">Assinatura Digitál</button>
+            <button class="button-w-1">Nova Assinatura</button>
+          </div>
+          <div class="grid-B-col-3">
+            <p>Geral</p>
+            <button class="button-w-2">Carteiras</button>
+            <button class="button-w-2">Instruções</button>
+          </div>
+        </div>
+        <!-- fim da grid-B -->
+    </div>
+    <div class="grid-A-col-2 box">
+      <!-- grid-C -->
+      <div class="grid-C">
+        <div class="grid-C-col-1">
+          Alertas
+          <span>Ultímos 5 dias</span>
+        </div>
+        <div class="grid-C-col-2">
+          <ul>
+            <li><span>23 Notas Canceladas</span></li>
+            <li>
+              <span>13 Notas Canceladas</span>
+              <select name="acao">
+                <option *ngFor="let acao of selectAcoesService.getAcoes()" value="{{acao.id}}">{{acao.name}}</option>
+              </select>
+            </li>
+            <li>
+              <span>7 Assinaturas Digital</span>
+              <select name="acao">
+                <option *ngFor="let acao of selectAcoesService.getAcoes()" value="{{acao.id}}">{{acao.name}}</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- fim do grid-C -->
+    </div>
+  </div>
+  <!-- fim do grid-A -->
+
+</div>

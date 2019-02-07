@@ -1,0 +1,68 @@
+header {
+  background-color: #FFFFFF;
+  display: flow-root;
+  position: relative;
+}
+header>p {
+  float: right;
+  margin-top: 20px;
+}
+
+img.logo {
+  margin: 4px 0px 1px 11px;
+  float: left;
+}
+
+/* .navBarTop>p {
+  float: right;
+  color: #545454;
+  margin-top: 22px;
+} */
+
+/* userBox */
+  .userBox {
+    position: relative;
+    background: #469cdc;
+    width: 269px;
+    height: 52px;
+    float: right;
+    right: 0;
+    margin: 5px;
+    color: #FFFFFF;
+  }
+  /* userData */
+    .userData {
+      background: #00233d;
+      width: 207px;
+      height: inherit;
+      float: left;
+      display: flex;
+    }
+    .userData i {
+      margin: 13px;
+    }
+    .userBox img {
+      width: 33px;
+      height: 31px;
+      margin: 12px 3px;
+    }
+  /* fim userData */
+
+  /* alert */
+    .alert {
+    width: 34px;
+    float: left;
+    height: 35px;
+    margin: 13px 0px 0px 13px;
+  }
+  .alert span {
+    background-color: red;
+    padding: 0 5px;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    font-size: initial;
+    border-radius: 50%;
+  }
+  /* fim alert */
+/* fim do userBox */

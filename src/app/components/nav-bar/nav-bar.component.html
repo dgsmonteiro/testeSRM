@@ -1,0 +1,19 @@
+<aside>
+  <!-- campo busca -->
+  <div class="search">
+    <input type="text" placeholder="pesquise aqui">
+    <i class="material-icons">search</i>
+  </div>
+
+  <!-- itens do menu -->
+  <ul>
+    <!-- component item do menu -->
+    <app-item-menu-nav-bar
+      *ngFor="let item of itens"
+      item="{{item.item}}"
+      texto="{{item.texto}}"
+      img="{{item.icon}}"
+    ></app-item-menu-nav-bar>
+  </ul>
+
+</aside>
